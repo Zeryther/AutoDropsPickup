@@ -1,0 +1,12 @@
+settings:
+  defaults:
+    pickupMobDrops: true
+    pickupPlayerDrops: true
+# Explaining above:
+#
+# pickupMobDrops - if "true", players will automatically pickup drops from the monsters they kill.
+# pickupPlayerDrops - if "true", players will automatically pickup drops from the players they kill.
+# pickupBlocks - if "true", players will automatically pickup blocks they break.
+messages:
+  prefix: "&9[AutoDropsPickup] &6"
+  notEnoughSpaceInInventory: "Your inventory does not have enough space to store the items. The items were dropped."

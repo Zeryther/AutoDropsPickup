@@ -1,0 +1,10 @@
+name: AutoDropsPickup
+version: 1.0
+description: Never have to pick up blocks again!
+main: de.zeryther.autodropspickup.AutoDropsPickup
+softdepend: [WorldGuard]
+
+commands:
+  autodropspickup:
+    description: Main command for AutoDropsPickup
+    aliases: [adp]
